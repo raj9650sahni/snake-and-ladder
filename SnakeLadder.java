@@ -15,8 +15,7 @@ public class SnakeLadder {
 	    
 	    int p1_score = 0;
 	    int p2_score = 0;
-	    int player1_position = 1;
-	    int player2_position  = 2;
+	    
 	    int dice_rolled_player1 = 0;
 	    int dice_rolled_player2 = 0;
 	    
@@ -119,13 +118,9 @@ public class SnakeLadder {
     	
                 }	
 	    		
-	    		if (p1_score > p2_score) {
-	    	    	player1_position = 1;
-	    	    	System.out.println("position of player1 = " + player1_position);
-	    	    }else {
-	    	    	player2_position = 2;
-	    	    	System.out.println("position of player2 = " + player2_position);
-	    	    }
+	    		System.out.println("position of player 1 = " + p1_score);
+	    		System.out.println("position of player 2 = " + p2_score);
+	    		
 	    
 	   }
 	    
